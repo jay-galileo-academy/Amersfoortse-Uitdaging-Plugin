@@ -1,0 +1,18 @@
+{
+    "host": "185.104.30.180",
+    "username": "jay@au-plugin.dedi0233.zxcs.nl",
+    "password": "79EG3QPMpKSSlcnYMVJ13bVP",
+    "remotePath": "./public_html/wp-content/plugins/Amersfoortse-Uitdaging-Plugin",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": true,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode",
+        "/node_modules",
+        "/assets/sccs"
+    ]
+}
