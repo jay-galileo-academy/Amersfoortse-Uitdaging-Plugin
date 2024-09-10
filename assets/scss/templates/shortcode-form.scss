@@ -1,0 +1,108 @@
+@import '../configuration/variables.scss';
+
+.vea-form-wrapper {
+
+    form div.vea-inner div {
+        margin-bottom: 15px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    .vea-hidden {
+        display: none;
+    }
+
+    input[type="text"], textarea, input[type="number"], input[type="tel"], input[type="email"] {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        background-color: $secondary !important;
+        border: 1px solid $secondary !important;
+        color: white !important;
+
+        &:hover {
+            border: 1px solid $secondary !important;
+            color: $secondary !important;
+            background-color: white !important;
+        }
+    }
+
+    .error-notif, .vea-verplicht {
+        color: red;
+    }
+
+    .vea-verplicht {
+        padding: 0px 5px;
+        font-size: 16px;
+    }
+
+    .vea-naam-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .vea-notices {
+        display: flex;
+        margin-top: 20px;
+        border-bottom: 2px solid $secondary;
+        background-color: #ebebeb63;
+        padding: 10px 20px;
+        gap: 10px;
+
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+
+    .vea_upload_container {
+        margin: 30px 0 30px !important;
+
+        .uitleg {
+            background-color: #e0e0e0;
+            margin: 20px 0 10px;
+            padding: 10px;
+            border-radius: 5px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: -10px;
+                left: 10px;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid #e0e0e0;
+            }
+        }
+    }
+
+    .vea-grid {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+
+        input {
+            margin-left: -1px;
+            border-left: none;
+        }
+
+        .vea-euro-indicator {
+            background-color: $secondary;
+            color: white;
+            padding: 9px 13px;
+            border: 1px solid grey;
+            font-size: 18px;
+        }
+    }
+
+}
