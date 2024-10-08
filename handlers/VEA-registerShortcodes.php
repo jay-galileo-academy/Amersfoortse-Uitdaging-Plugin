@@ -60,7 +60,7 @@ class VEAregisterShortcodes
 
                     <div class="title-container">
                         <label for="korte_zin">Korte zin over vraag/aanbod<span class="vea-verplicht">*</span></label><br />
-                        <input type="text" name="korte_zin" id="korte_zin" placeholder="Korte zin over uw vraag/aanbod" maxlength="70" required>
+                        <input type="text" name="korte_zin" id="korte_zin" placeholder="Korte zin over je vraag/aanbod" maxlength="70" required>
                         <p class="error-notif"></p>
                     </div>
 
@@ -110,7 +110,7 @@ class VEAregisterShortcodes
                 </div>
             </form>
             <div class="vea-notices" style="<?php if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "new_vea_post" ) { echo "display:flex;"; } else { echo "display:none;"; } ?>">
-                <i>&check;</i><p>Uw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?> is verstuurd. U ontvangt een mail met meer details over uw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?></p>
+                <i>&check;</i><p>Jouw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?> is verstuurd. Je ontvangt een mail met meer details over jouw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?></p>
             </div>
         </div>
 

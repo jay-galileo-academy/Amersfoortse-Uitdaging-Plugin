@@ -19,7 +19,7 @@ class VEAaanvraagMail
             <table cellspacing='0' cellpadding='0' border='0' role='presentation' width='600' align='center' class='main-table'>
             <tr>
                 <td>
-                    <h1 class='text-centered'>Er is een $type geplaatst op <a href='https://www.rotterdamseuitdaging.nl/'>Rotterdamse Uitdaging</a>.</h1>
+                    <h1 class='text-centered'>Er is een $type geplaatst op <a href='https://amersfoortseuitdaging.nl/'>Amersfoortse Uitdaging</a>.</h1>
                 </td>
             </tr>
             <tr>

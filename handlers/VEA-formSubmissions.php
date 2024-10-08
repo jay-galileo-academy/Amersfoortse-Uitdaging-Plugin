@@ -120,8 +120,8 @@ class VEAformSubmissions
         $pid = wp_insert_post($new_post); 
 
         //Send mail to admin
-        $to = 'match@rotterdamseuitdaging.nl';
-        $subject = 'Een nieuwe ' . $vraag_aanbod . ' op Rotterdamse Uitdaging';
+        $to = 'jay@galileo-academy.nl';
+        $subject = 'Een nieuwe ' . $vraag_aanbod . ' op Amersfoortse Uitdaging';
         ob_start();
         require_once plugin_dir_path(__FILE__) . '../templates/mail/vea-email-header.php'; 
         echo $aanvraagMail->aanvraagBody($vraag_aanbod, $naam, $organisatie, $email, $telefoonnummer, $description, $categorie, $maatschappelijk, $tegenprestatie);
@@ -194,9 +194,9 @@ class VEAformSubmissions
         $naam = $post_naam;
 
         // Send mail to Admin and Post type owner
-        $to = array('match@rotterdamseuitdaging.nl', $post_email);
+        $to = array('jay@galileo-academy.nl', $post_email);
         $subject = 'Er is gereageerd op uw ' . $type . ' "' . $title . '"';
-        $body = 'Beste ' . $naam . ',<br/><br/>Iemand heeft een nieuwe reactie geplaatst op uw ' . $type . ' bij de Rotterdamse Uitdaging <br/><br/> Bericht: <br/>' . $response_reactie;
+        $body = 'Beste ' . $naam . ',<br/><br/>Iemand heeft een nieuwe reactie geplaatst op uw ' . $type . ' bij de Amersfoortse Uitdaging <br/><br/> Bericht: <br/>' . $response_reactie;
         ob_start();
         require_once plugin_dir_path(__FILE__) . '../templates/mail/vea-email-header.php'; 
         echo $responseMail->responseMailBody($type, $naam, $response_reactie, $response_email, $response_bedrijf, $response_naam, $post_url, $response_telefoonnummer);

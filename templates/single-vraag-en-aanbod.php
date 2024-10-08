@@ -73,32 +73,32 @@ if (isset($maatschappelijk_key) && $maatschappelijk_key !== '' && $maatschappeli
                     <div class="vea_naam_block">
                         <div class="vea_response_vnaam_container">
                             <label for="vea_response_vnaam">Voornaam<span class="vea-verplicht">*</span></label>
-                            <input type="text" id="vea_response_vnaam" name="vea_response_vnaam" placeholder="Vul uw voornaam in" required>
+                            <input type="text" id="vea_response_vnaam" name="vea_response_vnaam" placeholder="Vul je voornaam in" required>
                             <p class="error-notif"></p>
                         </div>
 
                         <div class="vea_response_anaam_container">
                             <label for="vea_response_anaam">Achternaam<span class="vea-verplicht">*</span></label>
-                            <input type="text" id="vea_response_anaam" name="vea_response_anaam" placeholder="Vul uw achternaam in" required>
+                            <input type="text" id="vea_response_anaam" name="vea_response_anaam" placeholder="Vul je achternaam in" required>
                             <p class="error-notif"></p>
                         </div>
                     </div>
 
                     <div class="vea_response_bedrijf_container">
                         <label for="vea_response_bedrijf">Bedrijf<span class="vea-verplicht">*</span></label>
-                        <input type="text" id="vea_response_bedrijf" name="vea_response_bedrijf" placeholder="Vul uw bedrijfsnaam in" required>
+                        <input type="text" id="vea_response_bedrijf" name="vea_response_bedrijf" placeholder="Vul jouw bedrijfsnaam in" required>
                         <p class="error-notif"></p>
                     </div>
                     
                     <div class="vea_response_telefoonnummer_container">
                         <label for="vea_response_telefoonnummer">Telefoonnummer<span class="vea-verplicht">*</span></label>
-                        <input type="tel" id="vea_response_telefoonnummer" name="vea_response_telefoonnummer" placeholder="Vul uw telefoonnummer in" required>
+                        <input type="tel" id="vea_response_telefoonnummer" name="vea_response_telefoonnummer" placeholder="Vul jouw telefoonnummer in" required>
                         <p class="error-notif"></p>
                     </div>
 
                     <div class="vea_response_reactie_container">
                         <label for="vea_response_reactie">Bericht<span class="vea-verplicht">*</span></label>
-                        <textarea id="vea_response_reactie" name="vea_response_reactie" placeholder="Vul hier het bericht in dat u wil versturen" rows="5" required></textarea>
+                        <textarea id="vea_response_reactie" name="vea_response_reactie" placeholder="Vul hier het bericht in dat je wil versturen" rows="5" required></textarea>
                         <p class="error-notif"></p>
                     </div>
 
@@ -106,12 +106,12 @@ if (isset($maatschappelijk_key) && $maatschappelijk_key !== '' && $maatschappeli
                         <input type="text" id="vea_password" name="vea_password" style="display:none !important;" tabindex="-1" autocomplete="off">
                     </div>
                     
-                    <input type="submit" value="Verstuur uw reactie">
+                    <input type="submit" value="Verstuur je reactie">
                     <input type="hidden" name="action" value="new_vea_response" />
                 </form>
             </div>
             <div class="vea-notices" style="<?php if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "new_vea_response" ) { echo "display:flex;"; } else { echo "display:none;"; } ?>">
-                <i>&check;</i><p>Uw reactie is succesvol verzonden!</p>
+                <i>&check;</i><p>Je reactie is succesvol verzonden!</p>
             </div>
         </div>
         <div class="right">

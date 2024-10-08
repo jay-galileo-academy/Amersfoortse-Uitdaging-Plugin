@@ -42,7 +42,7 @@
             </a>
 
             <?php endwhile; else : ?>
-                <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                <p><?php esc_html_e( 'Op dit moment zijn er geen vraag/aanbod beschikbaar.' ); ?></p>
             <?php endif; ?>
             <div class="vea-pagination">
                 <?php the_posts_pagination(); ?>

@@ -22,8 +22,8 @@ class VEAklantAanvraagMail
             </tr>
             <tr>
                 <td>
-                    <p>Uw $type is verwerkt en terug te vinden op de <a href='https://www.rotterdamseuitdaging.nl/'>Rotterdamse Uitdaging</a>.</p>
-                    <p>Ziet uw $type er niet zo uit als verwacht? Neem dan contact op met: <a href='mailto:info@rotterdamseuitdaging.nl'>info@rotterdamseuitdaging.nl</a></p>
+                    <p>Je $type is verwerkt en terug te vinden op de <a href='https://amersfoortseuitdaging.nl/'>Amersfoortse Uitdaging</a>.</p>
+                    <p>Ziet je $type er niet zo uit als verwacht? Neem dan contact op met: <a href='mailto:info@amersfoortseuitdaging.nl'>info@amersfoortseuitdaging.nl</a></p>
                 </td>
             </tr>
             </table>

@@ -29,7 +29,7 @@
         }
 
         a {
-            color: #50B04C;
+            color: #E8451D;
         }
         
         p {

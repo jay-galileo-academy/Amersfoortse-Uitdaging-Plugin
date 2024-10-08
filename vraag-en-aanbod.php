@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Vraag en Aanbod
  * Plugin URI:        https://galileo-academy.nl/
- * Description:       Creates a CPT, and adds forms for users to submit their own posts.
+ * Description:       Met deze plugin kunnen gebruikers vraag en aanbod plaatsen op de website.
  * Version:           1.0.6
  * Requires at least: 5.2
  * Requires PHP:      7.2
@@ -56,7 +56,7 @@ class VraagEnAanbod
 
             $config = array(
                 'slug' => plugin_basename( __FILE__ ),
-                'proper_folder_name' => 'rotterdamse-uitdaging-plugin-personal',
+                'proper_folder_name' => 'Amersfoortse-Uitdaging-Plugin',
                 'api_url' => 'https://api.github.com/repos/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin',
                 'raw_url' => 'https://raw.github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin/master',
                 'github_url' => 'https://github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin',

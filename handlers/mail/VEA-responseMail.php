@@ -12,7 +12,7 @@ class VEAresponseMail
             <table cellspacing='0' cellpadding='0' border='0' role='presentation' width='600' align='center' class='main-table'>
             <tr>
                 <td>
-                    <h1 class='text-centered'>Iemand heeft gereageerd op uw $type!</h1>
+                    <h1 class='text-centered'>Iemand heeft gereageerd op je $type!</h1>
                 </td>
             </tr>
             <tr>
@@ -22,7 +22,7 @@ class VEAresponseMail
             <tr>
                 <td>
                     <p>Beste $naam,</p>
-                    <p>Iemand heeft een nieuwe reactie geplaatst op uw aanbod bij de <a href='$post_url' target='_blank'>Rotterdamse Uitdaging</a>. Hier onder kunt u de details van de reactie bekijken.</p>
+                    <p>Iemand heeft een nieuwe reactie geplaatst op je aanbod bij de <a href='$post_url' target='_blank'>Amersfoortse Uitdaging</a>. Hier onder kun je de details van de reactie bekijken.</p>
                 </td>
             </tr>
             <tr>

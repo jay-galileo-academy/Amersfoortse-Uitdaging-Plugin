@@ -33,7 +33,7 @@
   padding: 6px 5px;
 }
 .vea-sidebar .aanmelden a:hover {
-  background-color: #50B04C;
+  background-color: #E8451D;
 }
 .vea-sidebar .wpc-filter-title {
   padding: 10px;
@@ -61,7 +61,7 @@
   overflow: hidden;
   border-radius: 5px;
   background-color: white;
-  color: #515151;
+  color: #3a3a3a;
 }
 .vea-main .vea-container .image-container {
   height: 255px;
@@ -78,7 +78,7 @@
   font-size: 24px;
   font-weight: 400;
   margin: 0 0 10px;
-  color: #50B04C;
+  color: #E8451D;
 }
 .vea-main .vea-container .content .meta p {
   margin: 0;
@@ -107,13 +107,13 @@
   width: 100%;
 }
 .vea-form-wrapper input[type=submit] {
-  background-color: #50B04C !important;
-  border: 1px solid #50B04C !important;
+  background-color: #E8451D !important;
+  border: 1px solid #E8451D !important;
   color: white !important;
 }
 .vea-form-wrapper input[type=submit]:hover {
-  border: 1px solid #50B04C !important;
-  color: #50B04C !important;
+  border: 1px solid #E8451D !important;
+  color: #E8451D !important;
   background-color: white !important;
 }
 .vea-form-wrapper .error-notif, .vea-form-wrapper .vea-verplicht {
@@ -131,7 +131,7 @@
 .vea-form-wrapper .vea-notices {
   display: flex;
   margin-top: 20px;
-  border-bottom: 2px solid #50B04C;
+  border-bottom: 2px solid #E8451D;
   background-color: rgba(235, 235, 235, 0.3882352941);
   padding: 10px 20px;
   gap: 10px;
@@ -170,7 +170,7 @@
   border-left: none;
 }
 .vea-form-wrapper .vea-grid .vea-euro-indicator {
-  background-color: #50B04C;
+  background-color: #E8451D;
   color: white;
   padding: 9px 13px;
   border: 1px solid grey;
@@ -217,7 +217,7 @@ body.single-vraag-en-aanbod .ast-container {
 }
 .vea-hero__inner .maatschappelijke-waarde .top {
   font-weight: bold;
-  color: #50B04C;
+  color: #E8451D;
 }
 .vea-hero__inner .maatschappelijke-waarde .bottom {
   border-radius: 0 0 10px 10px;
@@ -240,7 +240,7 @@ body.single-vraag-en-aanbod .ast-container {
   border: none;
 }
 .vea-wrapper button:hover, .vea-wrapper button:focus {
-  background-color: #50B04C;
+  background-color: #E8451D;
 }
 .vea-wrapper .bg-white {
   padding: 10px 20px;
@@ -271,7 +271,7 @@ body.single-vraag-en-aanbod .ast-container {
 .vea-wrapper__inner .vea-notices {
   display: flex;
   margin-top: 20px;
-  border-bottom: 2px solid #50B04C;
+  border-bottom: 2px solid #E8451D;
   background-color: rgba(235, 235, 235, 0.3882352941);
   padding: 10px 20px;
   gap: 10px;
@@ -307,7 +307,7 @@ body.single-vraag-en-aanbod .ast-container {
 }
 .vea-wrapper__inner .intro h1 {
   font-size: 36px;
-  color: #50B04C;
+  color: #E8451D;
 }
 @media only screen and (max-width: 1024px) {
   .vea-wrapper__inner .intro h1 {
@@ -353,7 +353,7 @@ body.single-vraag-en-aanbod .ast-container {
   width: 100%;
 }
 .vea-wrapper__inner form label {
-  color: #50B04C;
+  color: #E8451D;
 }
 .vea-wrapper__inner form input[type=submit] {
   color: white;
