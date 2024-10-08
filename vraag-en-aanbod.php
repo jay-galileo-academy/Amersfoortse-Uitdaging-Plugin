@@ -3,13 +3,13 @@
  * Plugin Name:       Vraag en Aanbod
  * Plugin URI:        https://galileo-academy.nl/
  * Description:       Met deze plugin kunnen gebruikers vraag en aanbod plaatsen op de website.
- * Version:           1.0.6
+ * Version:           1.0.7
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Jay Schmidt
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI:        https://github.com/jay-galileo-academy/Rotterdamse-Uitdaging-Plugin-Personal/
+ * Update URI:        https://github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin
  * Text Domain:       vraag-en-aanbod
  * Domain Path:       /languages
  */
