@@ -3,7 +3,7 @@
  * Plugin Name:       Vraag en Aanbod
  * Plugin URI:        https://galileo-academy.nl/
  * Description:       Met deze plugin kunnen gebruikers vraag en aanbod plaatsen op de website.
- * Version:           1.1.5
+ * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Jay Schmidt
@@ -56,7 +56,7 @@ class VraagEnAanbod
 
             $config = array(
                 'slug' => plugin_basename( __FILE__ ),
-                'proper_folder_name' => 'Amersfoortse-Uitdaging-Plugin-main',
+                'proper_folder_name' => '',
                 'api_url' => 'https://api.github.com/repos/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin',
                 'raw_url' => 'https://raw.github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin/master',
                 'github_url' => 'https://github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin',
@@ -65,7 +65,6 @@ class VraagEnAanbod
                 'requires' => '3.0',
                 'tested' => '3.3',
                 'readme' => 'README.md',
-                'access_token' => '',
             );
 
             new WP_GitHub_Updater( $config );
