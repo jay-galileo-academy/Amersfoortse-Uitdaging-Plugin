@@ -56,7 +56,7 @@ class VraagEnAanbod
 
             $config = array(
                 'slug' => plugin_basename( __FILE__ ),
-                'proper_folder_name' => 'amersfoortse-uitdaging-plugin',
+                'proper_folder_name' => 'Amersfoortse-Uitdaging-Plugin',
                 'api_url' => 'https://api.github.com/repos/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin',
                 'raw_url' => 'https://raw.github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin/master',
                 'github_url' => 'https://github.com/jay-galileo-academy/Amersfoortse-Uitdaging-Plugin',
