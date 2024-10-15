@@ -135,7 +135,7 @@ class VEAformSubmissions
 
         //Send mail to customer
         $to_customer = $email;
-        $subject_customer = "Uw $vraag_aanbod is succesvol geplaatst";
+        $subject_customer = "Jouw $vraag_aanbod is succesvol geplaatst";
         ob_start();
         require_once plugin_dir_path(__FILE__) . '../templates/mail/vea-email-header.php'; 
         echo $klantAanvraagMail->klantAanvraagBody($vraag_aanbod);
