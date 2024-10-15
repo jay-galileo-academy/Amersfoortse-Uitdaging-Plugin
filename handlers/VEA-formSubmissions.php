@@ -129,7 +129,7 @@ class VEAformSubmissions
         $body_complete = ob_get_contents();
         ob_end_clean();
 
-        $headers = array('Content-Type: text/html; charset=UTF-8');
+        $headers = array('Content-Type: text/html; charset=UTF-8', 'From: Amersfoortse Uitdaging <info@amersfoortseuitdaging.nl>');
 
         wp_mail($to, $subject, $body_complete, $headers);
 
@@ -143,7 +143,7 @@ class VEAformSubmissions
         $customer_body_complete = ob_get_contents();
         ob_end_clean();
 
-        $customer_headers = array('Content-Type: text/html; charset=UTF-8');
+        $customer_headers = array('Content-Type: text/html; charset=UTF-8', 'From: Amersfoortse Uitdaging <info@amersfoortseuitdaging.nl>');
 
         wp_mail($to_customer, $subject_customer, $customer_body_complete, $customer_headers);
 
@@ -204,7 +204,7 @@ class VEAformSubmissions
         $body_complete = ob_get_contents();
         ob_end_clean();
 
-        $headers = array('Content-Type: text/html; charset=UTF-8');
+        $headers = array('Content-Type: text/html; charset=UTF-8', 'From: Amersfoortse Uitdaging <info@amersfoortseuitdaging.nl>');
 
         wp_mail($to, $subject, $body_complete, $headers);
     }
