@@ -6,7 +6,7 @@
 class VEAaanvraagMail
 { 
 
-    public function aanvraagBody($type, $naam, $bedrijf, $email, $telefoonnummer, $bericht, $categorie, $waarde, $tegenprestatie) {
+    public function aanvraagBody($type, $naam, $bedrijf, $email, $telefoonnummer, $bericht, $categorie, $waarde, $tegenprestatie, $korte_zin) {
 
         if ( isset($tegenprestatie) && $tegenprestatie != "" ) {
             $new_tegenprestatie = 'Tegenprestatie: </br>' . $tegenprestatie;
@@ -33,7 +33,8 @@ class VEAaanvraagMail
                     <strong>Naam:</strong> $naam<br/>
                     <strong>Organisatie:</strong> $bedrijf<br/>
                     <strong>E-mailadres:</strong> $email<br/>
-                    <strong>Tel:</strong> $telefoonnummer</p>
+                    <strong>Tel:</strong> $telefoonnummer<br/>
+                    <strong>Korte zin:</strong> $korte_zin</p>
                     <p><strong>Bericht:</strong> <br/>$bericht</p>
                     <p><strong>Tegenprestatie:</strong> <br/>$tegenprestatie</p>
                     <p><strong>Categorie:</strong> <span style='text-transform:capitalize;'>$categorie</span><br/>

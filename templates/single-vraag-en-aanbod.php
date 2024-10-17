@@ -47,6 +47,11 @@ if (isset($maatschappelijk_key) && $maatschappelijk_key !== '' && $maatschappeli
 <div class="vea-wrapper">
     <div class="vea-wrapper__inner">
         <div class="left">
+
+            <div class="vea-notices" style="<?php if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "new_vea_response" ) { echo "display:flex;"; } else { echo "display:none;"; } ?>">
+                <i>&check;</i><p>Je reactie is succesvol verzonden!</p>
+            </div>
+
             <div class="intro bg-white">
                 <h1><?php the_title(); ?></h1>
                 <p class="meta"><span style="text-transform:capitalize;font-weight:bold;"><?php echo $type; ?></span> voor de <span style="text-transform:capitalize;font-weight:bold;"><?php echo $categorie ?></span>, via de <span style="text-transform:capitalize;font-weight:bold;">Rotterdamse Uitdaging</span> - Status: <span style="text-transform:capitalize;font-weight:bold;"><?php echo $status; ?></span></p>
@@ -109,9 +114,6 @@ if (isset($maatschappelijk_key) && $maatschappelijk_key !== '' && $maatschappeli
                     <input type="submit" value="Verstuur je reactie">
                     <input type="hidden" name="action" value="new_vea_response" />
                 </form>
-            </div>
-            <div class="vea-notices" style="<?php if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "new_vea_response" ) { echo "display:flex;"; } else { echo "display:none;"; } ?>">
-                <i>&check;</i><p>Je reactie is succesvol verzonden!</p>
             </div>
         </div>
         <div class="right">

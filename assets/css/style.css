@@ -130,7 +130,7 @@
 }
 .vea-form-wrapper .vea-notices {
   display: flex;
-  margin-top: 20px;
+  margin: 20px 0;
   border-bottom: 2px solid #E8451D;
   background-color: rgba(235, 235, 235, 0.3882352941);
   padding: 10px 20px;
@@ -270,7 +270,7 @@ body.single-vraag-en-aanbod .ast-container {
 }
 .vea-wrapper__inner .vea-notices {
   display: flex;
-  margin-top: 20px;
+  margin: 20px 0;
   border-bottom: 2px solid #E8451D;
   background-color: rgba(235, 235, 235, 0.3882352941);
   padding: 10px 20px;

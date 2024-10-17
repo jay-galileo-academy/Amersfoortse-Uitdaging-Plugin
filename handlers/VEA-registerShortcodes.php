@@ -16,6 +16,9 @@ class VEAregisterShortcodes
         ?>
 
         <div class="vea-form-wrapper">
+            <div class="vea-notices" style="<?php if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "new_vea_post" ) { echo "display:flex;"; } else { echo "display:none;"; } ?>">
+                <i>&check;</i><p>Jouw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?> is verstuurd. Je ontvangt een mail met meer details over jouw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?></p>
+            </div>
             <form id="vea_form" name="vea_form" method="post" action="" enctype="multipart/form-data">
                 <div class="vea-inner">
                     <div class="vea-naam-grid">
@@ -109,9 +112,6 @@ class VEAregisterShortcodes
                     <input type="hidden" name="action" value="new_vea_post" />
                 </div>
             </form>
-            <div class="vea-notices" style="<?php if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "new_vea_post" ) { echo "display:flex;"; } else { echo "display:none;"; } ?>">
-                <i>&check;</i><p>Jouw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?> is verstuurd. Je ontvangt een mail met meer details over jouw <?php if ( isset($_POST['vraag_aanbod']) ) {  echo $_POST['vraag_aanbod']; } else { echo '';} ?></p>
-            </div>
         </div>
 
         <?php
