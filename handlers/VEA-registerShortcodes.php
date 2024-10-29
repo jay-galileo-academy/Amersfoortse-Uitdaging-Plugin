@@ -53,7 +53,7 @@ class VEAregisterShortcodes
                     </div>
 
                     <div id="vea_vraag_aanbod">
-                        <p>Heeft u een vraag of aanbod?<span class="vea-verplicht">*</span></p>
+                        <p>Heb jij een vraag of aanbod?<span class="vea-verplicht">*</span></p>
                         <input type="radio" id="vraag" name="vraag_aanbod" value="vraag" required>
                         <label for="vraag">Vraag</label><br>
                         <input type="radio" id="aanbod" name="vraag_aanbod" value="aanbod">
