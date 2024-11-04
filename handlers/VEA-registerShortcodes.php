@@ -48,7 +48,7 @@ class VEAregisterShortcodes
 
                     <div class="phone-container">
                         <label for="telefoonnummer">Telefoonnummer<span class="vea-verplicht">*</span></label><br />
-                        <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="Telefoonnummer" required>
+                        <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="Telefoonnummer">
                         <p class="error-notif"></p>
                     </div>
 
