@@ -115,7 +115,7 @@ class VEAshortcode
             email_error.innerHTML = "";
         }
 
-        if ( !this.valTel(telefoonnummer) || telefoonnummer == "" ) {
+        if ( !this.valTel(telefoonnummer) && telefoonnummer != "") {
             phone_error.innerHTML = "Voer een geldig telefoonnummer in";
             event.preventDefault();
         } else {
