@@ -54,7 +54,7 @@ if (isset($maatschappelijk_key) && $maatschappelijk_key !== '' && $maatschappeli
 
             <div class="intro bg-white">
                 <h1><?php the_title(); ?></h1>
-                <p class="meta"><span style="text-transform:capitalize;font-weight:bold;"><?php echo $type; ?></span> voor de <span style="text-transform:capitalize;font-weight:bold;"><?php echo $categorie ?></span>, via de <span style="text-transform:capitalize;font-weight:bold;">Rotterdamse Uitdaging</span> - Status: <span style="text-transform:capitalize;font-weight:bold;"><?php echo $status; ?></span></p>
+                <p class="meta"><span style="text-transform:capitalize;font-weight:bold;"><?php echo $type; ?></span> voor de <span style="text-transform:capitalize;font-weight:bold;"><?php echo $categorie ?></span>, via de <span style="text-transform:capitalize;font-weight:bold;">Amersfoortse Uitdaging</span> - Status: <span style="text-transform:capitalize;font-weight:bold;"><?php echo $status; ?></span></p>
             </div>
             
             <div class="vea_beschrijving bg-white">
